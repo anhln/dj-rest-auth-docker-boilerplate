@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "~=4.0.6"
+django-environ = "~=0.4"
+psycopg2-binary= "~=2.9.3"
+gunicorn = "~=20.1"
+dj-rest-auth = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-allauth = "*"
+drf-yasg = "*"
+django-cors-headers = "~=3.2.1"
+pyyaml = "*"
+uritemplate = "*"
+coreapi = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10.4"
